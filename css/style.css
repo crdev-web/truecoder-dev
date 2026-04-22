@@ -117,3 +117,22 @@ header {
   font-family: "DM Mono", monospace;
   font-size: 12px;
 }
+
+/* ==================
+  DESKTOP NAV
+================== */
+
+@media (min-width: 768px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 32px;
+  }
+
+  .nav-lang {
+    display: block;
+  }
+}
