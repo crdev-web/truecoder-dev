@@ -1,0 +1,29 @@
+/* ==================
+  RESET
+================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==================
+  VARIABILI
+================== */
+
+:root {
+  --bg: #111113;
+  --surface: #1c1c22;
+  --border: #28282f;
+  --text: #ebebeb;
+  --muted: #6a6a78;
+  --accent: #8b9cf4;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
