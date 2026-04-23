@@ -308,6 +308,46 @@ header {
   opacity: 0.75;
 }
 
+/* ==================
+  STACK
+   ================== */
+
+#stack {
+  background-color: var(--surface);
+  text-align: center;
+}
+
+#stack h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 48px;
+}
+
+.stack-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.stack-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.stack-item i {
+  font-size: 64px;
+}
+
+.stack-item span {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
 @media (min-width: 768px) {
   .servizi-grid {
     grid-template-columns: repeat(3, 1fr);
