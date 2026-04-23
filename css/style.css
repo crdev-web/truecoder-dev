@@ -239,8 +239,90 @@ header {
   opacity: 0.75;
 }
 
+/* ==================
+  PORTFOLIO
+   ================== */
+
+#portfolio {
+  background-color: var(--bg);
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 0;
+}
+.portfolio-img {
+  background-color: var(--surface);
+  border-radius: 12px;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+.portfolio-category {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.portfolio-info h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.portfolio-info p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.portfolio-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.portfolio-tag {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+.portfolio-link {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent);
+  transition: opacity 0.2s;
+  align-self: flex-start;
+}
+
+.portfolio-link:hover {
+  opacity: 0.75;
+}
+
 @media (min-width: 768px) {
   .servizi-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .portfolio-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .portfolio-item.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .portfolio-img,
+  .portfolio-info {
+    flex: 1;
   }
 }
