@@ -136,3 +136,53 @@ header {
     display: block;
   }
 }
+
+/* ==================
+  HERO
+================== */
+
+#hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+}
+
+.hero-content {
+  max-width: 720px;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.hero-title span {
+  color: var(--accent);
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: var(--muted);
+  max-width: 540px;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: var(--accent);
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 6px;
+  transition: opacity 0.2s;
+}
+
+.hero-cta:hover {
+  opacity: 0.85;
+}
