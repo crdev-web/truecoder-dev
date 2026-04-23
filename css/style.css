@@ -186,3 +186,61 @@ header {
 .hero-cta:hover {
   opacity: 0.85;
 }
+
+/* ==================
+  SERVIZI
+================== */
+
+#servizi {
+  background-color: var(--surface);
+}
+
+.servizi-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.card {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.card p {
+  color: var(--muted);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.card-cta {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 10px 20px;
+  border-radius: 6px;
+  align-self: flex-start;
+  transition: opacity 0.2s;
+}
+
+.card-cta:hover {
+  opacity: 0.75;
+}
+
+@media (min-width: 768px) {
+  .servizi-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
