@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="IT">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-widt, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>truecoder - Web Developer Freelancer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
   </head>
 
   <body>
@@ -44,8 +47,8 @@
               Siti web che funzionano.<br /><span>Davvero.</span>
             </h1>
             <p class="hero-subtitle">
-              Sviluppo siti vetrina, landing page ed e-comerce. Niente fronzoli,
-              solo codice preciso e risultati misurabili.
+              Sviluppo siti vetrina, landing page ed e-commerce. Niente
+              fronzoli, solo codice preciso e risultati misurabili.
             </p>
             <a href="#contatti" class="hero-cta">Parliamo</a>
           </div>
@@ -55,7 +58,7 @@
       <section id="servizi">
         <div class="container">
           <div class="servizi-grid">
-            <div class=".card">
+            <div class="card">
               <h3>Sito Vetrina</h3>
               <p>
                 Presenza online professionale per la tua attività. Veloce,
@@ -65,7 +68,7 @@
               <a href="#contatti" class="card-cta">Parliamo</a>
             </div>
 
-            <div class=".card">
+            <div class="card">
               <h3>Landing Page</h3>
               <p>
                 Una pagina pensata per convertire visitatori in clienti.
@@ -74,7 +77,7 @@
               <a href="#contatti" class="card-cta">Parliamo</a>
             </div>
 
-            <div class=".card">
+            <div class="card">
               <h3>Manutenzione</h3>
               <p>
                 Il tuo sito aggiornato, sicuro e funzionante nel tempo.
@@ -145,63 +148,75 @@
         </div>
       </section>
 
-
       <section id="stack">
-          <div class="container">
-            <h2>Stack</h2>
+        <div class="container">
+          <h2>Stack</h2>
           <div class="stack-grid">
-          <div class="stack-item">
-          <i class="devicon-html5-plain colored"></i>
-          <span>HTML</span>
+            <div class="stack-item">
+              <i class="devicon-html5-plain colored"></i>
+              <span>HTML</span>
+            </div>
+            <div class="stack-item">
+              <i class="devicon-css3-plain colored"></i>
+              <span>CSS</span>
+            </div>
+            <div class="stack-item">
+              <i class="devicon-javascript-plain colored"></i>
+              <span>JavaScript</span>
+            </div>
           </div>
-          <div class="stack-item">
-          <i class="devicon-css3-plain colored"></i>
-          <span>CSS</span>
-          </div>
-          <div class="stack-item">
-          <i class="devicon-javascript-plain colored"></i>
-          <span>JavaScript</span>
-          </div>
-          </div>
+        </div>
       </section>
-
 
       <section id="contatti">
         <div class="container">
           <h2>Contatti</h2>
           <p>Raccontami il tuo progetto. Ti rispondo entro 24 ore.</p>
           <form class="contact-form">
-
             <div class="form-group">
               <label for="nome">Nome</label>
-              <input type="text" id="nome" name="nome" placeholder="Il tuo nome">
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Il tuo nome"
+              />
             </div>
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="La tua email">
-                  </div>
-                  <div class="form-group">
-                    <label for="tipo">Tipo progetto</label>
-                    <select id="tipo" name="tipo">
-                      <option value="">-- Seleziona --</option>
-                      <option value="vetrina">Sito Vetrina</option>
-                      <option value="landing">Landing Page</option>
-                      <option value="manutenzione">Manutenzione</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="messaggio">Messaggio</label>
-                    <textarea id="messaggio" name="messaggio" rows="5" placeholder="Descrivimi il tuo progetto"></textarea>
-                  </div>
-                    <button type="submit" class="card-cta">
-
-                      Invia messaggio
-                    </button>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="La tua email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="tipo">Tipo progetto</label>
+              <select id="tipo" name="tipo">
+                <option value="">-- Seleziona --</option>
+                <option value="vetrina">Sito Vetrina</option>
+                <option value="landing">Landing Page</option>
+                <option value="manutenzione">Manutenzione</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="messaggio">Messaggio</label>
+              <textarea
+                id="messaggio"
+                name="messaggio"
+                rows="5"
+                placeholder="Descrivimi il tuo progetto"
+              ></textarea>
+            </div>
+            <button type="submit" class="card-cta">Invia messaggio</button>
           </form>
-          <p class="contact-fallback">Preferisci scrivere direttamente? <a href="mailto:hello@truecoder.dev">hello@truecoder.dev</a></p>
+          <p class="contact-fallback">
+            Preferisci scrivere direttamente?
+            <a href="mailto:hello@truecoder.dev">hello@truecoder.dev</a>
+          </p>
         </div>
       </section>
-
     </main>
 
     <footer>
@@ -224,10 +239,6 @@
       </div>
     </footer>
 
-
-
     <script src="js/main.js"></script>
   </body>
-
-
 </html>
