@@ -174,7 +174,7 @@ header {
   color: var(--text);
 }
 
-.hero-title span {
+.hero-title .accent {
   color: var(--accent);
 }
 
