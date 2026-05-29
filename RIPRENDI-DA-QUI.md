@@ -119,3 +119,26 @@ Project Claude creato, script open/close-session funzionanti, prossimo: Project 
 
 - Creare RIPRENDI-DA-QUI.md nel progetto Mac & Automazioni
 - Valutare altre automazioni utili (da decidere)
+
+## Aggiornamento 29/05/2026 — Sessione pomeriggio
+
+### Fatto oggi (Project truecoder.dev):
+
+- Project Claude "truecoder.dev" configurato con Instructions + 3 file caricati
+- Struttura definitiva dei Project stabilita (truecoder / cliente / Mac)
+- Brand confermato: truecoder.dev ovunque
+- Standard definitivi per ogni progetto: SEO tecnico base, GEO base, ratio aureo 1.618
+
+### Prossimo step immediato:
+
+Brief Da Raffaele — primo progetto/cliente ufficiale.
+
+- Sito gratuito (portfolio) ma rapporto professionale a tutti gli effetti
+- Proposta manutenzione mensile a pagamento
+- Preventivo formale, email dedicata, separato dall'amicizia
+- Brief nella prossima chat qui nel Project truecoder.dev
+- Poi si apre Project Da Raffaele per l'esecuzione
+
+### Regola sessione confermata:
+
+Fine sessione = aggiorna RIPRENDI-DA-QUI.md + sostituisci file nel Project.
