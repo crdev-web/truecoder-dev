@@ -57,6 +57,7 @@ ATTENZIONE: Ciro aveva scritto `"clik"` (manca una c) nell'addEventListener. Ver
 4. Poi: refining visivo (vedi TODO sotto) -> deploy Netlify/Vercel
 
 ### TODO visivi rimasti (dal vecchio CLAUDE.md)
+
 - #contatti padding-bottom 48px
 - LinkedIn href="#" da aggiornare
 - Cookie/Privacy href="#" da collegare a Iubenda
@@ -65,7 +66,9 @@ ATTENZIONE: Ciro aveva scritto `"clik"` (manca una c) nell'addEventListener. Ver
 ---
 
 ## INFRASTRUTTURA DA COMPLETARE (rimandata, era l'obiettivo dei "2 giorni")
+
 Non ancora fatta perché il toggle ha preso tutto il tempo. Da fare:
+
 - Creare Project Claude "truecoder.dev" con Instructions + files
 - Spezzare il CLAUDE.md monolitico in: Instructions (regole/stile/ruolo) + file separati (stato, errori, convenzioni-css, codice)
 - Script close-session.sh / open-session.sh (commit+push+update contesto semi-automatico)
@@ -74,6 +77,7 @@ Non ancora fatta perché il toggle ha preso tutto il tempo. Da fare:
 ---
 
 ## METODO DIDATTICO — REGOLE (non derogare)
+
 1. UN concetto nuovo alla volta. Mai 4 insieme.
 2. Concetto nuovo -> mini-esempio FUORI dal progetto -> controllo comprensione -> applicazione.
 3. Prima SPIEGA, poi chiedi. Niente domande socratiche su cose mai mostrate.
@@ -83,9 +87,35 @@ Non ancora fatta perché il toggle ha preso tutto il tempo. Da fare:
 7. Verificare SEMPRE codice incollato: typo nei nomi metodi/eventi, chiusure annidate.
 
 ## CONCETTI JS PADRONEGGIATI DA CIRO (15/05/2026)
+
 array, forEach, callback, getAttribute/textContent, concatenazione con +, let vs const,
 if/else, operatore di confronto === (vs = che assegna).
 Nota: == (due uguali) NON ancora introdotto - usare sempre === per ora.
 
 ## ERRORE STORICO DA NON RIFARE
+
 La sessione in VSCode bruciò Ciro buttandogli 4 concetti insieme senza basi -> "mi sento stupido". Mai più.
+
+## Aggiornamento 28/05/2026 13:55
+
+Project Claude creato, script open/close-session funzionanti, prossimo: Project Mac e automazioni
+
+## Aggiornamento 29/05/2026 — Setup Mac completato
+
+### Fatto oggi (Progetto Mac & Automazioni):
+
+- Audit macchina: macOS 26.5, zsh 5.9, Homebrew 4.4.6, Git 2.50.1, Node v23.2.0
+- .gitignore globale configurato (~/.gitignore_global) — blocca .DS_Store su tutti i repo
+- .DS_Store rimosso dal repo truecoder-dev e pushato
+- GitHub Desktop disinstallato — workflow solo da terminale VS Code
+- .zshrc configurato con alias git:
+  - gs = git status
+  - ga = git add .
+  - gp = git push
+  - gl = git log --oneline --graph --decorate -10
+  - gc "messaggio" = git add . + git commit -m
+
+### Prossimo step Mac:
+
+- Creare RIPRENDI-DA-QUI.md nel progetto Mac & Automazioni
+- Valutare altre automazioni utili (da decidere)
