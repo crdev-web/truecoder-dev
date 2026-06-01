@@ -246,3 +246,26 @@ Iubenda: cookie policy GDPR (da integrare prima del deploy)
 Ogni mattina: apri VSCode → pannello Claude a destra → incolla questo file → parti.
 Ogni sera: aggiorna questo file con JS scritto, CSS modificato, prossimi step.
 Da telefono: ragiona e discuti in chat → a fine sessione aggiorna il file e incollalo nell'estensione.
+
+## Aggiornamento 01/06/2026
+
+### JS — COMPLETO
+
+Toggle lingua IT/EN funzionante, incluso aggiornamento testo bottoni.
+Vedere js/main.js nel Project per codice finale completo.
+
+### PROSSIMI STEP AGGIORNATI
+
+1. ~~JS toggle lingua~~ ✅ FATTO
+2. 3 progetti portfolio (Da Raffaele → Bacoli Parking → Rossella)
+3. Refining visivo premium truecoder.dev (navbar staccata/arrotondata + altri dettagli)
+4. Deploy Netlify/Vercel
+
+### LISTINO PREZZI — BOZZA
+
+- Manutenzione mensile base: €100/mese
+- Intervento singolo minimo: €80-100
+- Sezione/componente a pacchetto: €150-200
+- Sito vetrina base: €2.000+
+- E-commerce: €3.000-5.000+
+  Listino completo da definire in sessione dedicata.

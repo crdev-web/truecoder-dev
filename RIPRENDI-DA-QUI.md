@@ -142,3 +142,54 @@ Brief Da Raffaele — primo progetto/cliente ufficiale.
 ### Regola sessione confermata:
 
 Fine sessione = aggiorna RIPRENDI-DA-QUI.md + sostituisci file nel Project.
+
+## Aggiornamento 29/05/2026 13:21
+
+Project truecoder e Mac creati, setup Mac completo, prossimo: brief Da Raffaele
+
+## Aggiornamento 01/06/2026 — Brief Da Raffaele
+
+### Stato sito truecoder.dev
+
+- HTML + CSS + JS completi e funzionanti
+- Toggle lingua COMPLETO incluso aggiornamento testo bottoni IT/EN
+- File codice completi da caricare nel Project: index.html + style.css + main.js
+- Refining visivo premium rimandato DOPO i 3 progetti portfolio
+- Deploy rimandato DOPO refining
+
+### TODO visivi prima del deploy
+
+- Navbar staccata e arrotondata (modifica strutturale CSS)
+- Altre modifiche premium ancora da definire
+- #contatti padding-bottom 48px
+- LinkedIn href="#" da aggiornare
+- Cookie/Privacy da collegare a Iubenda
+- Email hello@truecoder.dev da creare su Namecheap
+
+### Da Raffaele — contesto cliente
+
+- Salumeria centro storico Bacoli, clientela locale
+- Ha: logo, colori, volantino PDF pronto, pagina Instagram
+- Da verificare: Google Business Profile
+- Vuole crescere online, futuro e-commerce (budget 3-5K, probabilmente inverno)
+
+### Numeri definiti
+
+- Sito vetrina: gratis (portfolio)
+- Dominio: lui paga direttamente ~10€/anno
+- Hosting: Netlify gratuito — dirglielo chiaramente
+- Manutenzione mensile: €100/mese
+- Intervento singolo fuori piano: €80-100 minimo
+- Sezione nuova / componente a pacchetto: €150-200
+- E-commerce futuro: €3.000-5.000
+
+### Listino prezzi — bozza riferimenti (sessione dedicata da fare)
+
+- Ora implicita: €50-100
+- Consulenza: €100-200
+- Sito vetrina base: €2.000+
+- E-commerce: €3.000-5.000+
+
+### Prossimo step immediato
+
+Incontro Da Raffaele 01/06/2026 sera — chiudere brief, introdurre manutenzione, fissare azione concreta (PDF volantino + verifica Google Business).
