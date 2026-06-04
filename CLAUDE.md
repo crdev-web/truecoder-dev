@@ -269,3 +269,22 @@ Vedere js/main.js nel Project per codice finale completo.
 - Sito vetrina base: €2.000+
 - E-commerce: €3.000-5.000+
   Listino completo da definire in sessione dedicata.
+
+## Aggiornamento 01/06/2026 — sera
+
+### Clienti — cambio piano
+
+Da Raffaele eliminato definitivamente. Pattern di inaffidabilità, buca appuntamento ufficiale.
+Regola confermata: clienti inaffidabili si tagliano subito, il tempo ha valore.
+
+### Nuovi progetti portfolio
+
+1. Bacoli Parking — sito vetrina
+2. E-commerce personale dropshipping — un prodotto, funzionale, seconda entrata
+3. E-commerce EU — target settembre
+
+### Prossima sessione
+
+- Definire prodotto dropshipping
+- Impostare struttura e-commerce
+- Aggiornare sezione portfolio su truecoder.dev rimuovendo Da Raffaele

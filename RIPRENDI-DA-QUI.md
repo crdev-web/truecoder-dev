@@ -193,3 +193,18 @@ Project truecoder e Mac creati, setup Mac completo, prossimo: brief Da Raffaele
 ### Prossimo step immediato
 
 Incontro Da Raffaele 01/06/2026 sera — chiudere brief, introdurre manutenzione, fissare azione concreta (PDF volantino + verifica Google Business).
+
+## Aggiornamento 01/06/2026 — sera
+
+### Da Raffaele — CANCELLATO
+
+Pattern di inaffidabilità confermato. Buca all'appuntamento ufficiale per un prodotto gratuito.
+Fuori dal piano senza rimpianti. Slot liberato.
+
+### Nuovo piano progetti portfolio
+
+1. Bacoli Parking — sito vetrina (invariato)
+2. E-commerce personale dropshipping — un prodotto, funzionale completo, seconda entrata reale
+3. E-commerce mercato europeo — target settembre, progetto principale
+
+Il sito Da Raffaele NON compare più nel portfolio. Da sostituire con progetto più rilevante da definire.
