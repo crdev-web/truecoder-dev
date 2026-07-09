@@ -61,17 +61,19 @@ bottone.addEventListener("click", function () {
 ```
 
 ```javascript
-titolo.getAttribute("data-it");        // LEGGE l'attributo → "Servizi"
-titolo.textContent;                     // LEGGE il testo visibile → "Servizi"
-titolo.textContent = "Services";        // SCRIVE il testo visibile (nota: con =)
+titolo.getAttribute("data-it"); // LEGGE l'attributo → "Servizi"
+titolo.textContent; // LEGGE il testo visibile → "Servizi"
+titolo.textContent = "Services"; // SCRIVE il testo visibile (nota: con =)
 ```
 
 - `=` presente → stai SCRIVENDO (assegni). `=` assente → stai LEGGENDO.
 - `textContent` tutto attaccato, C maiuscola. JS è case-sensitive: maiuscole/minuscole contano.
 - La riga chiave del toggle:
+
 ```javascript
 elemento.textContent = elemento.getAttribute("data-" + linguaAttuale);
 ```
+
 "prendi il valore di data-it (o data-en) e mettilo come testo visibile".
 
 ---
@@ -81,11 +83,11 @@ elemento.textContent = elemento.getAttribute("data-" + linguaAttuale);
 Unire (incollare) due pezzi di testo.
 
 ```javascript
-"data-" + "it"     // "data-it"
-"data-" + "en"     // "data-en"
+"data-" + "it"; // "data-it"
+"data-" + "en"; // "data-en"
 
 let lingua = "en";
-"data-" + lingua   // "data-en" (usa il valore della variabile)
+"data-" + lingua; // "data-en" (usa il valore della variabile)
 ```
 
 - Con testo `+` incolla. Con numeri `+` somma.
@@ -103,4 +105,57 @@ let lingua = "en";
 ---
 
 ## DA IMPARARE PROSSIMAMENTE
+
 - if / else e operatore di confronto `===` (per invertire la lingua nel toggle)
+
+## 7. REACT — libreria per interfacce dinamiche
+
+Risolve il problema del DOM manuale in JS vanilla. Invece di aggiornare il DOM a mano,
+descrivi come deve apparire l'interfaccia in base allo stato — React aggiorna tutto da solo.
+
+### Componenti
+
+Pezzi di interfaccia. Funzioni JavaScript che restituiscono JSX.
+Scrivi il componente una volta, lo riusi ovunque.
+
+### JSX
+
+HTML scritto dentro JavaScript. React lo trasforma in quello che il browser capisce.
+
+### Stato
+
+La situazione attuale dell'applicazione in un dato momento.
+Es: carrello vuoto o pieno, lingua IT o EN, prodotto aggiunto o no.
+
+### useState
+
+Hook per dichiarare e aggiornare lo stato.
+
+```javascript
+const [carrello, setCarrello] = useState([]);
+```
+
+- `carrello` — valore attuale
+- `setCarrello` — funzione per aggiornare
+- MAI modificare lo stato direttamente — sempre usare la funzione set
+
+### Spread operator con useState
+
+```javascript
+setCarrello([...carrello, prodottoCliccato]);
+```
+
+Crea sempre un array NUOVO — non modifica l'originale. React lo richiede per accorgersi del cambiamento.
+
+### Lifting state up
+
+Stato condiviso tra più componenti va nel componente genitore.
+Il genitore lo passa verso il basso ai figli tramite props.
+
+### Props
+
+Meccanismo con cui il genitore passa dati e funzioni ai figli.
+
+### Componente App
+
+Il componente radice — contiene tutti gli altri. Tiene lo stato condiviso dell'applicazione.

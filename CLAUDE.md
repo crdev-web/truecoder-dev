@@ -270,7 +270,7 @@ Vedere js/main.js nel Project per codice finale completo.
 - E-commerce: €3.000-5.000+
   Listino completo da definire in sessione dedicata.
 
-## Aggiornamento 01/06/2026 — sera
+## Aggiornamento 04/06/2026 — sera
 
 ### Clienti — cambio piano
 
@@ -288,3 +288,36 @@ Regola confermata: clienti inaffidabili si tagliano subito, il tempo ha valore.
 - Definire prodotto dropshipping
 - Impostare struttura e-commerce
 - Aggiornare sezione portfolio su truecoder.dev rimuovendo Da Raffaele
+
+## Aggiornamento 09/07/2026
+
+### Piano portfolio definitivo
+
+1. Bacoli Parking — sito vetrina
+2. E-commerce personale dropshipping — stash box con rolling tray integrata
+3. Rossella — editoria
+
+Card Da Raffaele su truecoder.dev da sostituire con e-commerce quando pronto.
+Target: tutto finito fine agosto, settembre primi clienti paganti EU/UK.
+
+### E-commerce — decisione prodotto
+
+Prodotto: stash box con rolling tray integrata
+Prezzo vendita: €25-40
+Fornitore: Spocket o Syncee (da selezionare dopo registrazione)
+Mercato: EU/UK
+Nessun overhead legale, nessun mini-brand — prodotto finito dal fornitore.
+
+### Stack e-commerce confermato
+
+React + Next.js + Stripe + Spocket/Syncee API
+Node.js separato fuori scope — Next.js copre il backend.
+
+### Concetti React introdotti 09/07/2026 (teoria)
+
+Componenti, JSX, stato, useState, spread operator, lifting state up, props, componente App.
+Nessun codice ancora — solo teoria solida.
+
+### Prossimo step
+
+Prima sessione pratica React — installazione, primo componente, useState applicato all'e-commerce.

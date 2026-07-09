@@ -194,9 +194,9 @@ Project truecoder e Mac creati, setup Mac completo, prossimo: brief Da Raffaele
 
 Incontro Da Raffaele 01/06/2026 sera — chiudere brief, introdurre manutenzione, fissare azione concreta (PDF volantino + verifica Google Business).
 
-## Aggiornamento 01/06/2026 — sera
+## Aggiornamento 04/06/2026 — sera
 
-### Da Raffaele — CANCELLATO
+### Da Raffaele — CANCELLARE
 
 Pattern di inaffidabilità confermato. Buca all'appuntamento ufficiale per un prodotto gratuito.
 Fuori dal piano senza rimpianti. Slot liberato.
@@ -208,3 +208,42 @@ Fuori dal piano senza rimpianti. Slot liberato.
 3. E-commerce mercato europeo — target settembre, progetto principale
 
 Il sito Da Raffaele NON compare più nel portfolio. Da sostituire con progetto più rilevante da definire.
+
+Aggiornamento 09/07/2026 — sessione teoria e-commerce + React
+Piano portfolio aggiornato (definitivo)
+
+Bacoli Parking — sito vetrina
+E-commerce personale dropshipping — stash box con rolling tray integrata
+Rossella — editoria
+
+La card Da Raffaele su truecoder.dev verrà sostituita con l'e-commerce quando sarà pronto.
+Target: tutto finito entro fine agosto, settembre si parte con i primi clienti paganti EU/UK.
+Prodotto e-commerce — decisione finale
+
+Prodotto: stash box con rolling tray integrata
+Prezzo vendita target: €25-40
+Fornitore: da selezionare su Spocket o Syncee dopo registrazione (entrambi hanno API per Next.js custom)
+Mercato: EU/UK
+Nessun overhead legale — prodotto generico, nessun obbligo age verification in EU
+Nessun mini-brand — prodotto finito già pronto dal fornitore
+
+Stack e-commerce confermato
+
+React — frontend
+Next.js — fullstack (gestisce backend e API routes, Node separato fuori scope)
+Stripe — pagamenti
+Spocket o Syncee — fulfillment via API
+
+Concetti React introdotti oggi (teoria, nessun codice ancora)
+
+Componenti — pezzi di interfaccia, funzioni che restituiscono JSX
+JSX — HTML scritto dentro JavaScript
+Stato — situazione attuale dell'applicazione in un dato momento
+useState — hook per dichiarare e aggiornare lo stato. Mai modificare lo stato direttamente, sempre usare la funzione set
+Spread operator — [...array, nuovoElemento] crea sempre una copia nuova, non modifica l'originale
+Lifting state up — stato condiviso tra componenti va nel componente genitore
+Props — meccanismo con cui il genitore passa dati e funzioni ai figli
+App — componente radice del progetto, contiene tutti gli altri
+
+Prossimo step
+Prima sessione pratica subito : installare React, creare il primo componente, applicare useState su un esempio reale legato all'e-commerce.
